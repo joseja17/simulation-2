@@ -1,0 +1,61 @@
+.dashboard-container {
+    height: 100%;
+    background-color: #AFD4C0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 250, 240);
+    width: 60%;
+    align-self: center;
+    height: 700px;  
+}
+
+.add-new_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-btn {
+    text-decoration: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 120px;
+    background-color: #8AEA92;
+    color: black;
+    font-weight: bold;
+    margin: 20px 10px 0px 10px;
+    padding: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.add-btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.Property_box{
+    /* background: url('adventures.png'); */
+ flex-direction: column;
+ min-width: 300px;
+ min-height: 100px;
+ margin-top: 40px;
+margin-left: 20px;
+margin-bottom: 15px;
+width: 0px;
+padding: 10px 20px 40px 20px;
+border: 2px solid black;
+font-weight: bold;
+box-shadow: 0 5px 30px 0 black;
+}
+
+.property_body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
